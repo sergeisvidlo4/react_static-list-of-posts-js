@@ -1,5 +1,7 @@
 import { PostInfo } from '../PostInfo/PostInfo';
 
+import './PostList.scss';
+
 export const PostList = ({ posts }) => {
   return (
     <div className="PostList">
